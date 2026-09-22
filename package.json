@@ -1,0 +1,15 @@
+{
+  "name": "remotelinkdesk",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Privacy-first foundations for a personal device network.",
+  "type": "module",
+  "workspaces": ["shared/*"],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm run test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
