@@ -44,4 +44,18 @@ This repository currently uses an All Rights Reserved license. See [LICENSE](LIC
 
 ## Status
 
-The repository is being developed incrementally according to BLUEPRINT.md.
+Phase 1 architecture is underway. The initial shared protocol foundation defines
+versioned message envelopes and independently granted, deny-by-default device
+capabilities. Platform clients and remote-access features are not implemented
+yet; see [the development status](docs/development.md).
+
+## Development
+
+Requires Node.js 20 or newer.
+
+```sh
+npm test
+```
+
+Architecture decisions and platform boundaries are documented in
+[docs/architecture.md](docs/architecture.md).
